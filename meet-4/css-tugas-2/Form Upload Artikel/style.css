@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-color: slategray;
+}
+
+.header, .footer {
+    border-style: solid;
+    border-width: 2px;
+    background-color: blue;
+    font-family: 'Anton', sans-serif;
+    color:whitesmoke;
+    text-align: center;
+    
+}
+
+form {
+    background-color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: tomato;
+    text-shadow: 2px 0px #404040;
+}
+
+h6 {
+    color: coral;
+    letter-spacing: 1px;
+}
+
+legend {
+    font-weight: bold;
+}

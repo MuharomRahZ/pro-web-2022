@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@600&display=swap');
+
+body {
+    /* Ctt:
+    Untuk background image, bisa menggunakan repeat & position, atau hanya size-cover
+    Untuk background color, bisa langsung digunakan, tanpa menggunakan bg image & sebaliknya
+    */
+    /* background-color: slategray; */
+    background-image: url("gambar/bg_batik_2.jpg");
+    /* background-size: cover; */
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.heading, .footer {
+    background-color: blue;
+    font-family: 'Lora', serif;
+    color:whitesmoke;
+    box-sizing: border-box;
+    width: 100%;
+    height: 80px;
+    
+}
+
+.heading h1{
+    padding-left: 10px;
+    font-weight: bold;
+    float: left;
+}
+
+.navMenu ul {
+    padding-right: 10px;
+    list-style-type: none;
+    float: right;
+}
+
+.navMenu ul li{
+    float: left;
+}
+
+.navMenu li a{
+    display: block;
+    text-decoration: none;
+    color: rgb(234, 226, 183);
+    padding: 15px;
+}
+
+.navMenu li a:hover{
+    background-color: rgb(252, 191, 73);
+    color: rgb(0, 48, 73);
+}
+
+
+
+.subheading {
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+}
+
+
+.content {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: lightskyblue;
+    font-family: 'Noto Serif Display', serif;
+    
+}
+
+.kolomkiri{
+    box-sizing: border-box;
+    width: 70%;
+    padding: 10px;
+    /* color: rgb(38, 70, 83); */
+    float: left;
+}
+
+.kolomkanan{
+    box-sizing: border-box;
+    width: 25%;
+    float: right;    
+    padding: 10px;
+}
+
+.kolomkanan .judulsidebar{
+    background-color: black;
+    color: rgb(241, 250, 238);
+    text-align: center;
+    padding: 10px;
+}
+
+.judulsidebar p{
+    font-size: large;
+}
+
+.isisidebar .gambartentang{
+    width: 75px;
+    margin-top: 5px;
+    margin-right: 5px;
+    float: left;
+}
+
+.artikelpopuler{
+    margin-top: 20px;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footer {
+    padding: 5px;
+    height: fit-content;
+}
+
+.footer h6{
+    text-align: center;
+    
+}
+
+
+p {
+    font-weight: bold;
+    padding: 10px;
+}
+
+p.date{
+    font-size: medium;
+}
+
+img {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.weblink a:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+}

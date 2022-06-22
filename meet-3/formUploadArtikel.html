@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Form Upload Artikel Sederhana</title> 
+</head> 
+<body> 
+    <form>
+        <fieldset>
+            <legend>Form Upload Artikel</legend>
+            <label>Hari/Tanggal Upload</label><br>
+            <input type="date" name="tanggal"><br>
+            <label for="judul">Judul Artikel</label><br>
+            <input type="text" name="judul" id="judul"><br>
+            <label for="kategori">Nama Kategori</label><br>
+            <select id="kategori" name="kategori">
+                <option value="Agama">Agama</option>
+                <option value="Berita">Berita</option>
+                <option value="Olahraga">Olahraga</option>
+                <option value="Teknologi">Teknologi</option>
+                <option value="Sains">Sains</option>
+            </select><br>
+            <label for="kontributor">Nama Kontributor</label><br>
+            <input type="text" name="kontributor" id="kontributor"><br>
+            <label for="isi">Isi Artikel</label><br>
+            <textarea id="isi" name="isi" rows="10" cols="35"></textarea><br>
+            <label for="gambar">Upload Gambar</label><br>
+            <input type="file" name="gambar"><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>
